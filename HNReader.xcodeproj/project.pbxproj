@@ -20,6 +20,7 @@
 		632997E81F26BF64008BA3BD /* AskHN.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632997E61F26BF64008BA3BD /* AskHN.storyboard */; };
 		632997EA1F26BF7A008BA3BD /* Jobs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632997E91F26BF7A008BA3BD /* Jobs.storyboard */; };
 		632997ED1F26C022008BA3BD /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632997EB1F26C022008BA3BD /* Settings.storyboard */; };
+		632997F01F27A4F4008BA3BD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632997EF1F27A4F4008BA3BD /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		632997E71F26BF64008BA3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AskHN.storyboard; sourceTree = "<group>"; };
 		632997E91F26BF7A008BA3BD /* Jobs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Jobs.storyboard; sourceTree = "<group>"; };
 		632997EC1F26C022008BA3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Settings.storyboard; sourceTree = "<group>"; };
+		632997EF1F27A4F4008BA3BD /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		632997DE1F26BBA8008BA3BD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				632997EF1F27A4F4008BA3BD /* Item.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632997F01F27A4F4008BA3BD /* Item.swift in Sources */,
 				632997E01F26BDDD008BA3BD /* StoriesViewController.swift in Sources */,
 				632997A91F26B8B3008BA3BD /* AppDelegate.swift in Sources */,
 				632997B11F26B8B3008BA3BD /* HNReader.xcdatamodeld in Sources */,
@@ -618,6 +622,7 @@
 				632997D21F26B8B3008BA3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		632997D31F26B8B3008BA3BD /* Build configuration list for PBXNativeTarget "HNReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -626,6 +631,7 @@
 				632997D51F26B8B3008BA3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		632997D61F26B8B3008BA3BD /* Build configuration list for PBXNativeTarget "HNReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -634,6 +640,7 @@
 				632997D81F26B8B3008BA3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
