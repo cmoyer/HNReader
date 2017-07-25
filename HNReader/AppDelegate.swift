@@ -17,6 +17,41 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //250.170.20 - main orange
+        //164.170.179 - inactive grey
+        //250.250.250 - tab bar background grey
+        let activeOrangeColor = UIColor(red: 250.0/255.0, green: 170.0/255.0, blue: 20.0/255.0, alpha: 1.0)
+        let inactiveGreyColor = UIColor(red: 164.0/255.0, green: 170.0/255.0, blue: 179.0/255.0, alpha: 1.0)
+        let tabBarGreyColor = UIColor(red: 250.0/255.0, green: 250.0/255.0, blue: 250.0/255.0, alpha: 1.0)
+        
+        UITabBar.appearance().barTintColor = tabBarGreyColor
+        UITabBar.appearance().tintColor = activeOrangeColor
+        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: activeOrangeColor], for: .selected)
+        UITabBarItem.appearance().setTitleTextAttributes([NSForegroundColorAttributeName: inactiveGreyColor], for: .normal)
+        
+        let tabBarController = self.window!.rootViewController as! UITabBarController
+        let tabBar = tabBarController.tabBar as UITabBar
+        
+        let storiesTab = tabBar.items![0] as UITabBarItem
+        storiesTab.image = UIImage(named: "StoriesInactive")?.withRenderingMode(.alwaysOriginal)
+        storiesTab.selectedImage = UIImage(named: "StoriesActive")?.withRenderingMode(.alwaysOriginal)
+        
+        let showHNTab = tabBar.items![1] as UITabBarItem
+        showHNTab.image = UIImage(named: "ShowHNInactive")?.withRenderingMode(.alwaysOriginal)
+        showHNTab.selectedImage = UIImage(named: "ShowHNActive")?.withRenderingMode(.alwaysOriginal)
+        
+        let askHNTab = tabBar.items![2] as UITabBarItem
+        askHNTab.image = UIImage(named: "AskHNInactive")?.withRenderingMode(.alwaysOriginal)
+        showHNTab.selectedImage = UIImage(named: "AskHNActive")?.withRenderingMode(.alwaysOriginal)
+        
+        let jobsTab = tabBar.items![3] as UITabBarItem
+        jobsTab.image = UIImage(named: "JobsInactive")?.withRenderingMode(.alwaysOriginal)
+        jobsTab.selectedImage = UIImage(named: "JobsActive")?.withRenderingMode(.alwaysOriginal)
+        
+        let settingsTab = tabBar.items![4] as UITabBarItem
+        settingsTab.image = UIImage(named: "SettingsInactive")?.withRenderingMode(.alwaysOriginal)
+        settingsTab.selectedImage = UIImage(named: "SettingsActive")?.withRenderingMode(.alwaysOriginal)
+        
         return true
     }
 
