@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EUb-7n-F6y">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wr6-KI-hDM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Stories-->
+        <!--Table View Controller-->
         <scene sceneID="71f-DC-S0b">
             <objects>
                 <tableViewController id="EUb-7n-F6y" sceneMemberID="viewController">
@@ -32,12 +32,31 @@
                             <outlet property="delegate" destination="EUb-7n-F6y" id="5zd-mY-XtJ"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Stories" image="StoriesInactive" id="uqh-m9-3cJ"/>
+                    <navigationItem key="navigationItem" id="9At-hT-tG6"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uRp-NG-opo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1028" y="-1407"/>
+            <point key="canvasLocation" x="1967.2" y="-1407.3463268365817"/>
+        </scene>
+        <!--Stories-->
+        <scene sceneID="dz6-md-AOZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wr6-KI-hDM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Stories" image="StoriesInactive" id="uqh-m9-3cJ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DN4-yL-mET">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="EUb-7n-F6y" kind="relationship" relationship="rootViewController" id="jKb-j0-vU5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WgG-KT-cdv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028" y="-1407.3463268365817"/>
         </scene>
     </scenes>
     <resources>

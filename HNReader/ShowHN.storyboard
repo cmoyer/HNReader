@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qla-Bd-t2o">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="W4s-aC-0Gb">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--ShowHN-->
+        <!--Table View Controller-->
         <scene sceneID="6gC-kW-Ovl">
             <objects>
                 <tableViewController id="qla-Bd-t2o" sceneMemberID="viewController">
@@ -32,12 +32,31 @@
                             <outlet property="delegate" destination="qla-Bd-t2o" id="4e6-nx-cGb"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="ShowHN" image="ShowHNInactive" id="sC6-lj-0cn"/>
+                    <navigationItem key="navigationItem" id="7C9-eV-avr"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5i-8A-zUv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1028" y="-761"/>
+            <point key="canvasLocation" x="1967.2" y="-761.46926536731644"/>
+        </scene>
+        <!--ShowHN-->
+        <scene sceneID="XbB-kf-gwF">
+            <objects>
+                <navigationController title="ShowHN" automaticallyAdjustsScrollViewInsets="NO" id="W4s-aC-0Gb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="ShowHN" image="ShowHNInactive" id="sC6-lj-0cn"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jhx-Jh-mpU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qla-Bd-t2o" kind="relationship" relationship="rootViewController" id="2v6-It-KwP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vsu-T5-Ss6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028" y="-761.46926536731644"/>
         </scene>
     </scenes>
     <resources>
