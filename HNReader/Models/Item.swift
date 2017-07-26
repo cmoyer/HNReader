@@ -25,20 +25,20 @@ import UIKit
  */
 
 class Item: NSObject {
-    var id: String
+    var id: Int
     var deleted: Bool?
     var type: String?
     var by: String?
-    var time: String?
+    var time: Double?
     var dead: Bool?
     var parent: String?
-    var kids: [String]?
+    var kids: [Int]?
     var url: String?
-    var score: String?
+    var score: Int?
     var title: String?
-    var descendants: String?
+    var descendants: Int?
     
-    init(id: String, deleted: Bool?, type: String?, by: String?, time: String?, dead: Bool?, parent: String?, kids: [String]?, url: String?, score: String?, title: String?, descendants: String?) {
+    init(id: Int, deleted: Bool?, type: String?, by: String?, time: Double?, dead: Bool?, parent: String?, kids: [Int]?, url: String?, score: Int?, title: String?, descendants: Int?) {
         self.id = id
         self.deleted = deleted
         self.type = type

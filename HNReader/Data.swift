@@ -1,0 +1,538 @@
+//
+//  Data.swift
+//  HNReader
+//
+//  This file contains example data that we can use while developing the UI of the application prior to setting up networking to the API.
+//
+//  Created by Chad Moyer on 7/25/17.
+//  Copyright © 2017 Chad Moyer. All rights reserved.
+//
+
+var jobsData: [[String:Any]] = [
+    [
+        "by": "sangwen",
+        "id": 14857937,
+        "score": 1,
+        "time": 1501088220,
+        "title": "Smarking (YC W15) Is Hiring Data Solution Engineers in SF",
+        "type": "job",
+        "url": "https://jobs.lever.co/smarking/ee5d25b4-c739-4db8-8085-c329e8ba2cb1"
+    ],
+    [
+        "by": "burnout1540",
+        "id": 14855095,
+        "score": 1,
+        "time": 1501066059,
+        "title": "HelloSign Is Hiring Engineers (Elixir or PHP) (San Francisco)",
+        "type": "job",
+        "url": "https://jobs.lever.co/hellosign?lever-origin=applied&lever-source%5B%5D=HackerNews"
+    ],
+    [
+        "by": "mwasser",
+        "id": 14854080,
+        "score": 1,
+        "time": 1501051378,
+        "title": "BloomAPI (YC W17) Is Hiring to Build the Repository of Health Data in Seattle",
+        "type": "job",
+        "url": "https://www.bloomapi.com/careers"
+    ],
+    [
+        "by": "leahcim",
+        "id": 14853468,
+        "score": 1,
+        "time": 1501039519,
+        "title": "Upcall (YC W17) is Hiring a growth Ruby/Rails engineer – API for phone calls",
+        "type": "job",
+        "url": "http://upcall.applytojob.com/apply/duLm3jiDgN/Senior-Ruby-On-Rails-Developer"
+    ],
+    [
+        "by": "old-gregg",
+        "id": 14852760,
+        "score": 1,
+        "text": "About you:<p>You understand how computers work and what role an operating system plays. You know why the Linux kernel is written in C and not any other language. You have a favorite file system, you know what a syscall is and you are comfortable exploring &#x2F;proc and &#x2F;sys. You like the idea of using Go, Python, Terraform and Ansible every day, are not afraid of Makefiles and enjoy setting up secrets management, CI&#x2F;CD automation, networks and clusters deployments.<p>You&#x27;re comfortable with troubleshooting networks and not afraid of routing and iptables. You&#x27;ve spent a lot of time in the past figuring out AWS ins and outs.<p>You&#x27;re looking forward to learn and&#x2F;or beef up your skills with the following: - Kubernetes - Docker - Orchestration &amp; deployment strategies<p>About us:<p><a href=\"https:&#x2F;&#x2F;gravitational.com\" rel=\"nofollow\">https:&#x2F;&#x2F;gravitational.com</a><p>Gravitational, an early stage systems &amp; cloud startup in San Francisco, is looking for ambitious and talented people. We are well-funded by fantastic Silicon Valley investors.<p>We are an experienced team: we founded Mailgun[1] which was acquired by Rackspace, we&#x27;ve created Vulcand[2], Teleport [3] and Teleconsole [4] and some other cool stuff at Rackspace.<p><pre><code> * Systems engineers (Linux, Go, Containers, Kubernetes) * DevOps&#x2F;Implementation services (Terraform, Linux, Kubernetes, Go, Ansible) </code></pre> Locations: San Francisco, Toronto or remote as long as you can be on-line 9am - 4pm PST.<p>Details: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;gravitational&#x2F;careers&#x2F;blob&#x2F;master&#x2F;devops-engineer.md\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;gravitational&#x2F;careers&#x2F;blob&#x2F;master&#x2F;devops-...</a><p>Contact: jobs@gravitational.com<p>[1] <a href=\"https:&#x2F;&#x2F;www.mailgun.com\" rel=\"nofollow\">https:&#x2F;&#x2F;www.mailgun.com</a><p>[2] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;vulcand&#x2F;vulcand\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;vulcand&#x2F;vulcand</a><p>[3] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;gravitational&#x2F;teleport\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;gravitational&#x2F;teleport</a><p>[4] <a href=\"https:&#x2F;&#x2F;www.teleconsole.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.teleconsole.com&#x2F;</a>",
+        "time": 1501025725,
+        "title": "Gravitational (YS S15) Is Hiring DevOps Engineers",
+        "type": "job"
+    ],
+    [
+        "by": "mkong1",
+        "id": 14851479,
+        "score": 1,
+        "text": "We are GiveCampus, and we build fundraising software for educational institutions. Our goal is to build innovative software so schools can raise money, and make it cheaper and more accessible for everyone. 25 of the top 50 colleges in the US already use GiveCampus, and we are growing faster than we can currently build!<p>Our engineering team is currently still small, and we&#x27;re looking to add to the team to keep up with our continued growth.<p>Our ideal candidate:<p>- working professionally for 2+ years. Not currently hiring fresh bootcamp grads.<p>Front-End<p>- great front end chops, but can still manage some of the backend functionality as well.<p>- eye for clean design (though not necessarily need to be a designer), and be able to implement and iterate quickly.<p>Full-Stack<p>- can do css down to database queries, and be comfortable with everything in between.<p>- enjoy owning a feature or product, from idea to deployment, and support&#x2F;iterating in the hands of users.<p>Our stack is Ruby on Rails, with mostly vanilla JS on the front end, and we&#x27;re moving toward React where appropriate.<p>Michael Seibel, CEO of YC, expects us to be a household name in the next few years: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=13896296\" rel=\"nofollow\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=13896296</a>. We were also covered by the Washington Post last year (<a href=\"https:&#x2F;&#x2F;www.washingtonpost.com&#x2F;news&#x2F;grade-point&#x2F;wp&#x2F;2016&#x2F;04&#x2F;19&#x2F;colleges-are-going-online-to-crowdsource-donations-and-theyre-raising-millions&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.washingtonpost.com&#x2F;news&#x2F;grade-point&#x2F;wp&#x2F;2016&#x2F;04&#x2F;1...</a>), and have more than quadrupled the number of schools using our software since it was published.<p>Shoot us a message at careers@givecampus.com with your github and a little about why you&#x27;re interested in GiveCampus!",
+        "time": 1501013875,
+        "title": "GiveCampus (YC S15) hiring Rails devs in DC and SF to improve school fundraising",
+        "type": "job"
+    ]
+]
+
+var showData: [[String:Any]] = [
+    [
+        "by": "emeth",
+        "descendants": 47,
+        "id": 14854915,
+        "kids": [
+            14855176,
+            14855267,
+            14856243,
+            14856817,
+            14858758,
+            14857267,
+            14855074,
+            14855606,
+            14856906,
+            14856041,
+            14857400,
+            14855292,
+            14855548,
+            14855683,
+            14856909,
+            14857072,
+            14856045,
+            14855189
+        ],
+        "score": 153,
+        "time": 1501063754,
+        "title": "Show HN: Teachcraft – Learn Python through Minecraft",
+        "type": "story",
+        "url": "https://teachcraft.net/"
+    ],
+    [
+        "by": "nikhilmantha",
+        "descendants": 19,
+        "id": 14857978,
+        "kids": [
+            14858736,
+            14858689,
+            14858577,
+            14858582,
+            14858418,
+            14858451,
+            14858317
+        ],
+        "score": 30,
+        "text": "Hey HN! This is Nikhil here with Ankush and Kunal. We founded Piggy (<a href=\"https:&#x2F;&#x2F;piggy.co.in&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;piggy.co.in&#x2F;</a>), an investment app for Indians. Think of it as a mobile-first Vanguard for India. With Piggy you can invest in mutual funds, track your investment portfolio and save for retirement.<p>Historically, public sector employees vastly outnumbered private sector ones in India. Those public jobs came with pensions, so no one had to think about investing their own money. In 2016, for the first time, the private jobs overtook the public. People have to invest their own money now, and it&#x27;s complicated and expensive. We built Piggy to help solve those problems.<p>This new Indian middle class is searching for good places to invest, which is why the mutual fund market is growing so quickly - assets grew by 40% in just the last year to $300B. Every one of these new investors has a smartphone, which is why Piggy is mobile first.<p>The app has quick online account setup, easy to use interface, built in user support (in app chat, email and call). Users can access all the fund houses in a single app. Transactions cost less than $10 a year and there are options for lowering that cost. The app charges a flat fee of 50 cents per buy transaction. We take no hidden commissions from asset management firms, unlike most services in India. Saved commissions mean higher returns for our users.<p>Ankush and I have fixed income analytics experience at an investment bank, and Kunal has worked with Amazon. When we started working, we got limited advice from our family on where to invest, mostly in traditional bank-based saving products with low returns. We also saw many of our friends fall prey to bad financial products. When we did learn about mutual funds, there was nothing out there that was easy to sign up and use, that didn’t charge a bomb or hidden commissions. We got together over many late night conversations and decided to build it ourselves.<p>We’d love to answer your questions about Piggy and love to discuss fintech in India and emerging markets!",
+        "time": 1501088434,
+        "title": "Launch HN: Piggy (YC S17) – Investment App for India",
+        "type": "story"
+    ],
+    [
+        "by": "nagrom42",
+        "descendants": 4,
+        "id": 14858312,
+        "kids": [
+            14859036,
+            14859068,
+            14859042,
+            14858713
+        ],
+        "score": 20,
+        "time": 1501090755,
+        "title": "Show HN: HearInsights – Automatic Notetaker",
+        "type": "story",
+        "url": "http://www.hearinsights.com/"
+    ],
+    [
+        "by": "emeth",
+        "descendants": 47,
+        "id": 14854915,
+        "kids": [
+            14855176,
+            14855267,
+            14856243,
+            14856817,
+            14858758,
+            14857267,
+            14855074,
+            14855606,
+            14856906,
+            14856041,
+            14857400,
+            14855292,
+            14855548,
+            14855683,
+            14856909,
+            14857072,
+            14856045,
+            14855189
+        ],
+        "score": 153,
+        "time": 1501063754,
+        "title": "Show HN: Teachcraft – Learn Python through Minecraft",
+        "type": "story",
+        "url": "https://teachcraft.net/"
+    ],
+    [
+        "by": "nikhilmantha",
+        "descendants": 19,
+        "id": 14857978,
+        "kids": [
+            14858736,
+            14858689,
+            14858577,
+            14858582,
+            14858418,
+            14858451,
+            14858317
+        ],
+        "score": 30,
+        "text": "Hey HN! This is Nikhil here with Ankush and Kunal. We founded Piggy (<a href=\"https:&#x2F;&#x2F;piggy.co.in&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;piggy.co.in&#x2F;</a>), an investment app for Indians. Think of it as a mobile-first Vanguard for India. With Piggy you can invest in mutual funds, track your investment portfolio and save for retirement.<p>Historically, public sector employees vastly outnumbered private sector ones in India. Those public jobs came with pensions, so no one had to think about investing their own money. In 2016, for the first time, the private jobs overtook the public. People have to invest their own money now, and it&#x27;s complicated and expensive. We built Piggy to help solve those problems.<p>This new Indian middle class is searching for good places to invest, which is why the mutual fund market is growing so quickly - assets grew by 40% in just the last year to $300B. Every one of these new investors has a smartphone, which is why Piggy is mobile first.<p>The app has quick online account setup, easy to use interface, built in user support (in app chat, email and call). Users can access all the fund houses in a single app. Transactions cost less than $10 a year and there are options for lowering that cost. The app charges a flat fee of 50 cents per buy transaction. We take no hidden commissions from asset management firms, unlike most services in India. Saved commissions mean higher returns for our users.<p>Ankush and I have fixed income analytics experience at an investment bank, and Kunal has worked with Amazon. When we started working, we got limited advice from our family on where to invest, mostly in traditional bank-based saving products with low returns. We also saw many of our friends fall prey to bad financial products. When we did learn about mutual funds, there was nothing out there that was easy to sign up and use, that didn’t charge a bomb or hidden commissions. We got together over many late night conversations and decided to build it ourselves.<p>We’d love to answer your questions about Piggy and love to discuss fintech in India and emerging markets!",
+        "time": 1501088434,
+        "title": "Launch HN: Piggy (YC S17) – Investment App for India",
+        "type": "story"
+    ],
+    [
+        "by": "nagrom42",
+        "descendants": 4,
+        "id": 14858312,
+        "kids": [
+            14859036,
+            14859068,
+            14859042,
+            14858713
+        ],
+        "score": 20,
+        "time": 1501090755,
+        "title": "Show HN: HearInsights – Automatic Notetaker",
+        "type": "story",
+        "url": "http://www.hearinsights.com/"
+    ]
+]
+
+var askData: [[String:Any]] = [
+    [
+        "by": "DidISayTooMuch",
+        "descendants": 19,
+        "id": 14848919,
+        "kids": [
+            14850935,
+            14849736,
+            14849935,
+            14850356,
+            14849698,
+            14850372,
+            14849992,
+            14850410,
+            14850773,
+            14850469,
+            14850163,
+            14850447,
+            14850386,
+            14849375
+        ],
+        "score": 37,
+        "text": "Are there quantifiable numbers that can say whether a start-up or a company is doing well and will have successful IPO or exit in the near future?",
+        "time": 1500999247,
+        "title": "Ask HN: What are some indicators that a company will have an IPO or exit",
+        "type": "story"
+
+    ],
+    [
+        "by": "throwawayrtc",
+        "descendants": 0,
+        "id": 14850155,
+        "score": 3,
+        "text": "I&#x27;m posting this on HN, as I know a lot of webrtc devs frequent here and I&#x27;ve gotten really bad results from freelancer sites.<p>I&#x27;m looking for a webrtc server application to be built for my needs.<p>Companies such as vidyo, tokbox, agora.io and others have per minute (per user) pricing which spins the cost wildly out of control. So much so, that the project cannot compete on pricing with say zoom.us or other monthly subscription competitors.<p>I&#x27;m on HN because:<p>1) I&#x27;m looking for someone who may want to work on a side project for the next few months or maybe there is a team of guys who have developed a similar project looking to do something else on the side too.<p>2) the community embraces open source.<p>Livepeer is an open source project. It&#x27;s goals aline with mine. However they are 6 months away from working on the webrtc code. Maybe someone is able to work on their codebase and fit it to my needs as a commercial project. Or perhaps fork it in the short-term, only to submit patches and push their project forward? Whatever works...<p>I say on the side, as the time-frame is not immediate, what&#x27;s most important is getting the architecture right of the infrastructure to support live broadcasts over webrtc. I&#x27;m having difficulty finding a company to fufill my requirements.<p>I&#x27;m interested in hearing from developers who have a lot of experience with webrtc and who have deployed projects for live broadcasting and scaled past 100 viewers.<p>So not only being knowledgable about WebRTC, but also TURN servers, video bit-rates, 3d audio and developing a redundant infrastructure for hosting and recording live broadcasts.<p>To be clear, this isn&#x27;t a full-time position. It&#x27;s more of a build this to spec and then you are done. But I would also be interested in a monthly &quot;maintenance&quot; fee in case any bugs show up.<p>If you are interested, shoot me an email at webrtcprojekt at gmail dot com and lets get together over skype and discuss.<p>Thanks",
+        "time": 1501005326,
+        "title": "Ask HN: Recommend Dev/Team for WebRTC Project?",
+        "type": "story"
+    ],
+    [
+        "by": "onecooldev24",
+        "descendants": 3,
+        "id": 14856720,
+        "kids": [
+            14857158,
+            14858218,
+            14856854
+        ],
+        "score": 6,
+        "text": "I don&#x27;t have a collage degree, but I am confident that I could pass the AWS certification exam. Is it a good idea to try and attempt these exams. How do recruiters view these types of qualifications?",
+        "time": 1501081204,
+        "title": "Ask HN: Would passing certification exams boost my resume?",
+        "type": "story"
+    ],
+    [
+        "by": "DidISayTooMuch",
+        "descendants": 19,
+        "id": 14848919,
+        "kids": [
+            14850935,
+            14849736,
+            14849935,
+            14850356,
+            14849698,
+            14850372,
+            14849992,
+            14850410,
+            14850773,
+            14850469,
+            14850163,
+            14850447,
+            14850386,
+            14849375
+        ],
+        "score": 37,
+        "text": "Are there quantifiable numbers that can say whether a start-up or a company is doing well and will have successful IPO or exit in the near future?",
+        "time": 1500999247,
+        "title": "Ask HN: What are some indicators that a company will have an IPO or exit",
+        "type": "story"
+        
+    ],
+    [
+        "by": "throwawayrtc",
+        "descendants": 0,
+        "id": 14850155,
+        "score": 3,
+        "text": "I&#x27;m posting this on HN, as I know a lot of webrtc devs frequent here and I&#x27;ve gotten really bad results from freelancer sites.<p>I&#x27;m looking for a webrtc server application to be built for my needs.<p>Companies such as vidyo, tokbox, agora.io and others have per minute (per user) pricing which spins the cost wildly out of control. So much so, that the project cannot compete on pricing with say zoom.us or other monthly subscription competitors.<p>I&#x27;m on HN because:<p>1) I&#x27;m looking for someone who may want to work on a side project for the next few months or maybe there is a team of guys who have developed a similar project looking to do something else on the side too.<p>2) the community embraces open source.<p>Livepeer is an open source project. It&#x27;s goals aline with mine. However they are 6 months away from working on the webrtc code. Maybe someone is able to work on their codebase and fit it to my needs as a commercial project. Or perhaps fork it in the short-term, only to submit patches and push their project forward? Whatever works...<p>I say on the side, as the time-frame is not immediate, what&#x27;s most important is getting the architecture right of the infrastructure to support live broadcasts over webrtc. I&#x27;m having difficulty finding a company to fufill my requirements.<p>I&#x27;m interested in hearing from developers who have a lot of experience with webrtc and who have deployed projects for live broadcasting and scaled past 100 viewers.<p>So not only being knowledgable about WebRTC, but also TURN servers, video bit-rates, 3d audio and developing a redundant infrastructure for hosting and recording live broadcasts.<p>To be clear, this isn&#x27;t a full-time position. It&#x27;s more of a build this to spec and then you are done. But I would also be interested in a monthly &quot;maintenance&quot; fee in case any bugs show up.<p>If you are interested, shoot me an email at webrtcprojekt at gmail dot com and lets get together over skype and discuss.<p>Thanks",
+        "time": 1501005326,
+        "title": "Ask HN: Recommend Dev/Team for WebRTC Project?",
+        "type": "story"
+    ],
+    [
+        "by": "onecooldev24",
+        "descendants": 3,
+        "id": 14856720,
+        "kids": [
+            14857158,
+            14858218,
+            14856854
+        ],
+        "score": 6,
+        "text": "I don&#x27;t have a collage degree, but I am confident that I could pass the AWS certification exam. Is it a good idea to try and attempt these exams. How do recruiters view these types of qualifications?",
+        "time": 1501081204,
+        "title": "Ask HN: Would passing certification exams boost my resume?",
+        "type": "story"
+    ]
+]
+var storiesData: [[String:Any]] = [
+    [
+        "by": "mintplant",
+        "descendants": 243,
+        "id": 14848786,
+        "kids": [
+            14849130,
+            14849688,
+            14849739,
+            14850734,
+            14849637,
+            14849153,
+            14849085,
+            14850407,
+            14849422,
+            14850625,
+            14849314,
+            14850388,
+            14850168,
+            14849243,
+            14850785,
+            14850811,
+            14849235,
+            14850316,
+            14850515,
+            14849016,
+            14849111,
+            14849444,
+            14849273,
+            14849482,
+            14850294,
+            14850550,
+            14850321,
+            14850618,
+            14850026,
+            14849940,
+            14850139,
+            14849947,
+            14849069,
+            14849464,
+            14849327,
+            14849404,
+            14849225,
+            14849718,
+            14850073,
+            14849942,
+            14849861,
+            14849186,
+            14849329,
+            14849134,
+            14849215,
+            14849330,
+            14849318,
+            14849735,
+            14850687,
+            14849239,
+            14849073,
+            14850626,
+            14850809
+        ],
+        "score": 369,
+        "time": 1500998447,
+        "title": "“We will stop updating and distributing the Flash Player at the end of 2020”",
+        "type": "story",
+        "url": "https://blogs.adobe.com/conversations/2017/07/adobe-flash-update.html"
+    ],
+    [
+        "by": "tontonius",
+        "descendants": 95,
+        "id": 14847059,
+        "kids": [
+            14849526,
+            14849206,
+            14850354,
+            14850715,
+            14850582,
+            14849376,
+            14850784,
+            14850199,
+            14850221,
+            14849098,
+            14850655,
+            14850288,
+            14850496,
+            14850528,
+            14850444,
+            14850138,
+            14850183,
+            14849261,
+            14850017,
+            14849536,
+            14850238
+        ],
+        "score": 253,
+        "time": 1500984316,
+        "title": "How Fear and Outrage Are Sold for Profit",
+        "type": "story",
+        "url": "https://medium.com/the-mission/the-enemy-in-our-feeds-e86511488de"
+    ],
+    [
+        "by": "howsilly",
+        "descendants": 8,
+        "id": 14850283,
+        "kids": [
+            14850959,
+            14850930,
+            14850823,
+            14850843,
+            14850783
+        ],
+        "score": 36,
+        "time": 1501006024,
+        "title": "Convoy raises $62M from Bill Gates and other luminaries to transform trucking",
+        "type": "story",
+        "url": "https://www.geekwire.com/2017/convoy-raises-62m-bill-gates-luminaries-transform-trucking-industry-technology/"
+    ],
+    [
+        "by": "mintplant",
+        "descendants": 243,
+        "id": 14848786,
+        "kids": [
+            14849130,
+            14849688,
+            14849739,
+            14850734,
+            14849637,
+            14849153,
+            14849085,
+            14850407,
+            14849422,
+            14850625,
+            14849314,
+            14850388,
+            14850168,
+            14849243,
+            14850785,
+            14850811,
+            14849235,
+            14850316,
+            14850515,
+            14849016,
+            14849111,
+            14849444,
+            14849273,
+            14849482,
+            14850294,
+            14850550,
+            14850321,
+            14850618,
+            14850026,
+            14849940,
+            14850139,
+            14849947,
+            14849069,
+            14849464,
+            14849327,
+            14849404,
+            14849225,
+            14849718,
+            14850073,
+            14849942,
+            14849861,
+            14849186,
+            14849329,
+            14849134,
+            14849215,
+            14849330,
+            14849318,
+            14849735,
+            14850687,
+            14849239,
+            14849073,
+            14850626,
+            14850809
+        ],
+        "score": 369,
+        "time": 1500998447,
+        "title": "“We will stop updating and distributing the Flash Player at the end of 2020”",
+        "type": "story",
+        "url": "https://blogs.adobe.com/conversations/2017/07/adobe-flash-update.html"
+    ],
+    [
+        "by": "tontonius",
+        "descendants": 95,
+        "id": 14847059,
+        "kids": [
+            14849526,
+            14849206,
+            14850354,
+            14850715,
+            14850582,
+            14849376,
+            14850784,
+            14850199,
+            14850221,
+            14849098,
+            14850655,
+            14850288,
+            14850496,
+            14850528,
+            14850444,
+            14850138,
+            14850183,
+            14849261,
+            14850017,
+            14849536,
+            14850238
+        ],
+        "score": 253,
+        "time": 1500984316,
+        "title": "How Fear and Outrage Are Sold for Profit",
+        "type": "story",
+        "url": "https://medium.com/the-mission/the-enemy-in-our-feeds-e86511488de"
+    ],
+    [
+        "by": "howsilly",
+        "descendants": 8,
+        "id": 14850283,
+        "kids": [
+            14850959,
+            14850930,
+            14850823,
+            14850843,
+            14850783
+        ],
+        "score": 36,
+        "time": 1501006024,
+        "title": "Convoy raises $62M from Bill Gates and other luminaries to transform trucking",
+        "type": "story",
+        "url": "https://www.geekwire.com/2017/convoy-raises-62m-bill-gates-luminaries-transform-trucking-industry-technology/"
+    ]
+]
