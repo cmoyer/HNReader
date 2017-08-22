@@ -24,19 +24,8 @@ class ShowHNTableViewController: UITableViewController, ShowHNTableViewCellDeleg
         let cell = tableView.dequeueReusableCell(withIdentifier: "ShowHNCell", for: indexPath) as! ShowHNTableViewCell
         
         let story = showData[indexPath.row]
-        let title = story["title"] as? String
-        let source = story["url"] as? String
-        let time = story["time"] as? Int
-        let timeSince = timeAgoSinceDate(date: Date(timeIntervalSince1970: TimeInterval(time!)), numericDates: true)
-        let score = story["score"] as? Int
-        let comments = story["descendants"] as? Int
-        
-        cell.titleLabel.text = title
-        cell.timeLabel.text =  timeSince
-        cell.sourceLabel.text = source
-        cell.upvoteButton.setTitle(String(describing: score!), for: .normal)
-        cell.commentButton.setTitle(String(describing: comments!), for: .normal)
-        
+        cell.configureWithStory(story: story as AnyObject)
+                
         cell.delegate = self
         
         return cell
