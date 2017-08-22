@@ -19,11 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShowHNCell" rowHeight="100" id="VN3-4C-bTh">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShowHNCell" rowHeight="100" id="VN3-4C-bTh" customClass="ShowHNTableViewCell" customModule="HNReader" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VN3-4C-bTh" id="RQW-Zx-eLF">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMC-cA-FhR">
@@ -65,6 +65,9 @@
                                             <state key="normal" title="462" image="icon-comment">
                                                 <color key="titleColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="commentButtonTouchedWithSender:" destination="VN3-4C-bTh" eventType="touchUpInside" id="113-Vu-EC3"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -86,6 +89,13 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="commentButton" destination="S0w-K5-t68" id="N5K-rO-uXy"/>
+                                    <outlet property="sourceLabel" destination="hZn-6o-P2I" id="oQp-SY-a7d"/>
+                                    <outlet property="timeLabel" destination="6Mg-fQ-oky" id="o6X-gh-aEA"/>
+                                    <outlet property="titleLabel" destination="CMC-cA-FhR" id="0K4-z6-PnW"/>
+                                    <outlet property="upvoteButton" destination="413-0J-f9X" id="XYU-t9-zrg"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

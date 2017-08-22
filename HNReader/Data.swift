@@ -195,6 +195,136 @@ var showData: [[String:Any]] = [
         "title": "Show HN: HearInsights – Automatic Notetaker",
         "type": "story",
         "url": "http://www.hearinsights.com/"
+    ],
+    [
+        "by": "emeth",
+        "descendants": 47,
+        "id": 14854915,
+        "kids": [
+            14855176,
+            14855267,
+            14856243,
+            14856817,
+            14858758,
+            14857267,
+            14855074,
+            14855606,
+            14856906,
+            14856041,
+            14857400,
+            14855292,
+            14855548,
+            14855683,
+            14856909,
+            14857072,
+            14856045,
+            14855189
+        ],
+        "score": 153,
+        "time": 1501063754,
+        "title": "Show HN: Teachcraft – Learn Python through Minecraft",
+        "type": "story",
+        "url": "https://teachcraft.net/"
+    ],
+    [
+        "by": "nikhilmantha",
+        "descendants": 19,
+        "id": 14857978,
+        "kids": [
+            14858736,
+            14858689,
+            14858577,
+            14858582,
+            14858418,
+            14858451,
+            14858317
+        ],
+        "score": 30,
+        "text": "Hey HN! This is Nikhil here with Ankush and Kunal. We founded Piggy (<a href=\"https:&#x2F;&#x2F;piggy.co.in&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;piggy.co.in&#x2F;</a>), an investment app for Indians. Think of it as a mobile-first Vanguard for India. With Piggy you can invest in mutual funds, track your investment portfolio and save for retirement.<p>Historically, public sector employees vastly outnumbered private sector ones in India. Those public jobs came with pensions, so no one had to think about investing their own money. In 2016, for the first time, the private jobs overtook the public. People have to invest their own money now, and it&#x27;s complicated and expensive. We built Piggy to help solve those problems.<p>This new Indian middle class is searching for good places to invest, which is why the mutual fund market is growing so quickly - assets grew by 40% in just the last year to $300B. Every one of these new investors has a smartphone, which is why Piggy is mobile first.<p>The app has quick online account setup, easy to use interface, built in user support (in app chat, email and call). Users can access all the fund houses in a single app. Transactions cost less than $10 a year and there are options for lowering that cost. The app charges a flat fee of 50 cents per buy transaction. We take no hidden commissions from asset management firms, unlike most services in India. Saved commissions mean higher returns for our users.<p>Ankush and I have fixed income analytics experience at an investment bank, and Kunal has worked with Amazon. When we started working, we got limited advice from our family on where to invest, mostly in traditional bank-based saving products with low returns. We also saw many of our friends fall prey to bad financial products. When we did learn about mutual funds, there was nothing out there that was easy to sign up and use, that didn’t charge a bomb or hidden commissions. We got together over many late night conversations and decided to build it ourselves.<p>We’d love to answer your questions about Piggy and love to discuss fintech in India and emerging markets!",
+        "time": 1501088434,
+        "title": "Launch HN: Piggy (YC S17) – Investment App for India",
+        "type": "story"
+    ],
+    [
+        "by": "nagrom42",
+        "descendants": 4,
+        "id": 14858312,
+        "kids": [
+            14859036,
+            14859068,
+            14859042,
+            14858713
+        ],
+        "score": 20,
+        "time": 1501090755,
+        "title": "Show HN: HearInsights – Automatic Notetaker",
+        "type": "story",
+        "url": "http://www.hearinsights.com/"
+    ],
+    [
+        "by": "emeth",
+        "descendants": 47,
+        "id": 14854915,
+        "kids": [
+            14855176,
+            14855267,
+            14856243,
+            14856817,
+            14858758,
+            14857267,
+            14855074,
+            14855606,
+            14856906,
+            14856041,
+            14857400,
+            14855292,
+            14855548,
+            14855683,
+            14856909,
+            14857072,
+            14856045,
+            14855189
+        ],
+        "score": 153,
+        "time": 1501063754,
+        "title": "Show HN: Teachcraft – Learn Python through Minecraft",
+        "type": "story",
+        "url": "https://teachcraft.net/"
+    ],
+    [
+        "by": "nikhilmantha",
+        "descendants": 19,
+        "id": 14857978,
+        "kids": [
+            14858736,
+            14858689,
+            14858577,
+            14858582,
+            14858418,
+            14858451,
+            14858317
+        ],
+        "score": 30,
+        "text": "Hey HN! This is Nikhil here with Ankush and Kunal. We founded Piggy (<a href=\"https:&#x2F;&#x2F;piggy.co.in&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;piggy.co.in&#x2F;</a>), an investment app for Indians. Think of it as a mobile-first Vanguard for India. With Piggy you can invest in mutual funds, track your investment portfolio and save for retirement.<p>Historically, public sector employees vastly outnumbered private sector ones in India. Those public jobs came with pensions, so no one had to think about investing their own money. In 2016, for the first time, the private jobs overtook the public. People have to invest their own money now, and it&#x27;s complicated and expensive. We built Piggy to help solve those problems.<p>This new Indian middle class is searching for good places to invest, which is why the mutual fund market is growing so quickly - assets grew by 40% in just the last year to $300B. Every one of these new investors has a smartphone, which is why Piggy is mobile first.<p>The app has quick online account setup, easy to use interface, built in user support (in app chat, email and call). Users can access all the fund houses in a single app. Transactions cost less than $10 a year and there are options for lowering that cost. The app charges a flat fee of 50 cents per buy transaction. We take no hidden commissions from asset management firms, unlike most services in India. Saved commissions mean higher returns for our users.<p>Ankush and I have fixed income analytics experience at an investment bank, and Kunal has worked with Amazon. When we started working, we got limited advice from our family on where to invest, mostly in traditional bank-based saving products with low returns. We also saw many of our friends fall prey to bad financial products. When we did learn about mutual funds, there was nothing out there that was easy to sign up and use, that didn’t charge a bomb or hidden commissions. We got together over many late night conversations and decided to build it ourselves.<p>We’d love to answer your questions about Piggy and love to discuss fintech in India and emerging markets!",
+        "time": 1501088434,
+        "title": "Launch HN: Piggy (YC S17) – Investment App for India",
+        "type": "story"
+    ],
+    [
+        "by": "nagrom42",
+        "descendants": 4,
+        "id": 14858312,
+        "kids": [
+            14859036,
+            14859068,
+            14859042,
+            14858713
+        ],
+        "score": 20,
+        "time": 1501090755,
+        "title": "Show HN: HearInsights – Automatic Notetaker",
+        "type": "story",
+        "url": "http://www.hearinsights.com/"
     ]
 ]
 
