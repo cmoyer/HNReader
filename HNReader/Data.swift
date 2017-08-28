@@ -432,7 +432,112 @@ var askData: [[String:Any]] = [
         "time": 1501081204,
         "title": "Ask HN: Would passing certification exams boost my resume?",
         "type": "story"
+    ],
+    [
+        "by": "DidISayTooMuch",
+        "descendants": 19,
+        "id": 14848919,
+        "kids": [
+            14850935,
+            14849736,
+            14849935,
+            14850356,
+            14849698,
+            14850372,
+            14849992,
+            14850410,
+            14850773,
+            14850469,
+            14850163,
+            14850447,
+            14850386,
+            14849375
+        ],
+        "score": 37,
+        "text": "Are there quantifiable numbers that can say whether a start-up or a company is doing well and will have successful IPO or exit in the near future?",
+        "time": 1500999247,
+        "title": "Ask HN: What are some indicators that a company will have an IPO or exit",
+        "type": "story"
+        
+    ],
+    [
+        "by": "throwawayrtc",
+        "descendants": 0,
+        "id": 14850155,
+        "score": 3,
+        "text": "I&#x27;m posting this on HN, as I know a lot of webrtc devs frequent here and I&#x27;ve gotten really bad results from freelancer sites.<p>I&#x27;m looking for a webrtc server application to be built for my needs.<p>Companies such as vidyo, tokbox, agora.io and others have per minute (per user) pricing which spins the cost wildly out of control. So much so, that the project cannot compete on pricing with say zoom.us or other monthly subscription competitors.<p>I&#x27;m on HN because:<p>1) I&#x27;m looking for someone who may want to work on a side project for the next few months or maybe there is a team of guys who have developed a similar project looking to do something else on the side too.<p>2) the community embraces open source.<p>Livepeer is an open source project. It&#x27;s goals aline with mine. However they are 6 months away from working on the webrtc code. Maybe someone is able to work on their codebase and fit it to my needs as a commercial project. Or perhaps fork it in the short-term, only to submit patches and push their project forward? Whatever works...<p>I say on the side, as the time-frame is not immediate, what&#x27;s most important is getting the architecture right of the infrastructure to support live broadcasts over webrtc. I&#x27;m having difficulty finding a company to fufill my requirements.<p>I&#x27;m interested in hearing from developers who have a lot of experience with webrtc and who have deployed projects for live broadcasting and scaled past 100 viewers.<p>So not only being knowledgable about WebRTC, but also TURN servers, video bit-rates, 3d audio and developing a redundant infrastructure for hosting and recording live broadcasts.<p>To be clear, this isn&#x27;t a full-time position. It&#x27;s more of a build this to spec and then you are done. But I would also be interested in a monthly &quot;maintenance&quot; fee in case any bugs show up.<p>If you are interested, shoot me an email at webrtcprojekt at gmail dot com and lets get together over skype and discuss.<p>Thanks",
+        "time": 1501005326,
+        "title": "Ask HN: Recommend Dev/Team for WebRTC Project?",
+        "type": "story"
+    ],
+    [
+        "by": "onecooldev24",
+        "descendants": 3,
+        "id": 14856720,
+        "kids": [
+            14857158,
+            14858218,
+            14856854
+        ],
+        "score": 6,
+        "text": "I don&#x27;t have a collage degree, but I am confident that I could pass the AWS certification exam. Is it a good idea to try and attempt these exams. How do recruiters view these types of qualifications?",
+        "time": 1501081204,
+        "title": "Ask HN: Would passing certification exams boost my resume?",
+        "type": "story"
+    ],
+    [
+        "by": "DidISayTooMuch",
+        "descendants": 19,
+        "id": 14848919,
+        "kids": [
+            14850935,
+            14849736,
+            14849935,
+            14850356,
+            14849698,
+            14850372,
+            14849992,
+            14850410,
+            14850773,
+            14850469,
+            14850163,
+            14850447,
+            14850386,
+            14849375
+        ],
+        "score": 37,
+        "text": "Are there quantifiable numbers that can say whether a start-up or a company is doing well and will have successful IPO or exit in the near future?",
+        "time": 1500999247,
+        "title": "Ask HN: What are some indicators that a company will have an IPO or exit",
+        "type": "story"
+        
+    ],
+    [
+        "by": "throwawayrtc",
+        "descendants": 0,
+        "id": 14850155,
+        "score": 3,
+        "text": "I&#x27;m posting this on HN, as I know a lot of webrtc devs frequent here and I&#x27;ve gotten really bad results from freelancer sites.<p>I&#x27;m looking for a webrtc server application to be built for my needs.<p>Companies such as vidyo, tokbox, agora.io and others have per minute (per user) pricing which spins the cost wildly out of control. So much so, that the project cannot compete on pricing with say zoom.us or other monthly subscription competitors.<p>I&#x27;m on HN because:<p>1) I&#x27;m looking for someone who may want to work on a side project for the next few months or maybe there is a team of guys who have developed a similar project looking to do something else on the side too.<p>2) the community embraces open source.<p>Livepeer is an open source project. It&#x27;s goals aline with mine. However they are 6 months away from working on the webrtc code. Maybe someone is able to work on their codebase and fit it to my needs as a commercial project. Or perhaps fork it in the short-term, only to submit patches and push their project forward? Whatever works...<p>I say on the side, as the time-frame is not immediate, what&#x27;s most important is getting the architecture right of the infrastructure to support live broadcasts over webrtc. I&#x27;m having difficulty finding a company to fufill my requirements.<p>I&#x27;m interested in hearing from developers who have a lot of experience with webrtc and who have deployed projects for live broadcasting and scaled past 100 viewers.<p>So not only being knowledgable about WebRTC, but also TURN servers, video bit-rates, 3d audio and developing a redundant infrastructure for hosting and recording live broadcasts.<p>To be clear, this isn&#x27;t a full-time position. It&#x27;s more of a build this to spec and then you are done. But I would also be interested in a monthly &quot;maintenance&quot; fee in case any bugs show up.<p>If you are interested, shoot me an email at webrtcprojekt at gmail dot com and lets get together over skype and discuss.<p>Thanks",
+        "time": 1501005326,
+        "title": "Ask HN: Recommend Dev/Team for WebRTC Project?",
+        "type": "story"
+    ],
+    [
+        "by": "onecooldev24",
+        "descendants": 3,
+        "id": 14856720,
+        "kids": [
+            14857158,
+            14858218,
+            14856854
+        ],
+        "score": 6,
+        "text": "I don&#x27;t have a collage degree, but I am confident that I could pass the AWS certification exam. Is it a good idea to try and attempt these exams. How do recruiters view these types of qualifications?",
+        "time": 1501081204,
+        "title": "Ask HN: Would passing certification exams boost my resume?",
+        "type": "story"
     ]
+
 ]
 var storiesData: [[String:Any]] = [
     [
