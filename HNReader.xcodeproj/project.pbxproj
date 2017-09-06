@@ -28,6 +28,8 @@
 		63B63C651F4F565D00EC1446 /* AskHNTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B63C641F4F565D00EC1446 /* AskHNTableViewCell.swift */; };
 		63B63C671F5F08F500EC1446 /* JobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B63C661F5F08F500EC1446 /* JobsTableViewCell.swift */; };
 		63B63C691F5F090400EC1446 /* JobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B63C681F5F090400EC1446 /* JobsTableViewController.swift */; };
+		63B63C6B1F605BC100EC1446 /* StoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B63C6A1F605BC100EC1446 /* StoriesTableViewCell.swift */; };
+		63B63C6D1F605CE500EC1446 /* StoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B63C6C1F605CE500EC1446 /* StoriesTableViewController.swift */; };
 		63DA42EF1F3A190F00D34423 /* ShowHNTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA42EE1F3A190F00D34423 /* ShowHNTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +78,8 @@
 		63B63C641F4F565D00EC1446 /* AskHNTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskHNTableViewCell.swift; sourceTree = "<group>"; };
 		63B63C661F5F08F500EC1446 /* JobsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTableViewCell.swift; sourceTree = "<group>"; };
 		63B63C681F5F090400EC1446 /* JobsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTableViewController.swift; sourceTree = "<group>"; };
+		63B63C6A1F605BC100EC1446 /* StoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesTableViewCell.swift; sourceTree = "<group>"; };
+		63B63C6C1F605CE500EC1446 /* StoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesTableViewController.swift; sourceTree = "<group>"; };
 		63DA42EE1F3A190F00D34423 /* ShowHNTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowHNTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +171,8 @@
 		632997D91F26BA9C008BA3BD /* Stories */ = {
 			isa = PBXGroup;
 			children = (
+				63B63C6A1F605BC100EC1446 /* StoriesTableViewCell.swift */,
+				63B63C6C1F605CE500EC1446 /* StoriesTableViewController.swift */,
 			);
 			path = Stories;
 			sourceTree = "<group>";
@@ -390,11 +396,13 @@
 				63B63C5D1F4C731500EC1446 /* ShowHNTableViewCell.swift in Sources */,
 				632997F01F27A4F4008BA3BD /* Item.swift in Sources */,
 				63B63C691F5F090400EC1446 /* JobsTableViewController.swift in Sources */,
+				63B63C6D1F605CE500EC1446 /* StoriesTableViewController.swift in Sources */,
 				632997A91F26B8B3008BA3BD /* AppDelegate.swift in Sources */,
 				63DA42EF1F3A190F00D34423 /* ShowHNTableViewController.swift in Sources */,
 				632997B11F26B8B3008BA3BD /* HNReader.xcdatamodeld in Sources */,
 				63B63C671F5F08F500EC1446 /* JobsTableViewCell.swift in Sources */,
 				63B63C631F4F559F00EC1446 /* AskHNTableViewController.swift in Sources */,
+				63B63C6B1F605BC100EC1446 /* StoriesTableViewCell.swift in Sources */,
 				63B63C651F4F565D00EC1446 /* AskHNTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
