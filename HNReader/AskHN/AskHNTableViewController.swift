@@ -34,10 +34,19 @@ class AskHNTableViewController: UITableViewController, AskHNTableViewCellDelegat
         
     }
     
-    // Mark: AskHNTableViewCellDelegate
+    // MARK: Misc
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "CommentsSegue" {
+            let toView = segue.destination as! AskHNCommentsTableViewController
+            let indexPath = tableView.indexPath(for: sender as! UITableViewCell)!
+            toView.story = askData[indexPath.row] as [String : AnyObject]
+        }
+    }
+    
+    // MARK: AskHNTableViewCellDelegate
     
     func askHNTableViewCellDidTouchComment(cell: AskHNTableViewCell, sender: AnyObject) {
-        // performSegueWithIdentifier("CommentsSegue", sender: self)
+        performSegue(withIdentifier: "CommentsSegue", sender: cell)
     }
 
 }

@@ -22,6 +22,7 @@
 		632997F01F27A4F4008BA3BD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632997EF1F27A4F4008BA3BD /* Item.swift */; };
 		632997F31F27AD6E008BA3BD /* HackerNewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632997F21F27AD6E008BA3BD /* HackerNewsAPI.swift */; };
 		632997F71F27C876008BA3BD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632997F61F27C876008BA3BD /* Data.swift */; };
+		63A621E51F7051EC00867B1D /* AskHNCommentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A621E41F7051EC00867B1D /* AskHNCommentsTableViewController.swift */; };
 		63B63C5D1F4C731500EC1446 /* ShowHNTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B63C5C1F4C731500EC1446 /* ShowHNTableViewCell.swift */; };
 		63B63C611F4CAD8700EC1446 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B63C601F4CAD8700EC1446 /* HelperFunctions.swift */; };
 		63B63C631F4F559F00EC1446 /* AskHNTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B63C621F4F559F00EC1446 /* AskHNTableViewController.swift */; };
@@ -72,6 +73,7 @@
 		632997EF1F27A4F4008BA3BD /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		632997F21F27AD6E008BA3BD /* HackerNewsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackerNewsAPI.swift; sourceTree = "<group>"; };
 		632997F61F27C876008BA3BD /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		63A621E41F7051EC00867B1D /* AskHNCommentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskHNCommentsTableViewController.swift; sourceTree = "<group>"; };
 		63B63C5C1F4C731500EC1446 /* ShowHNTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowHNTableViewCell.swift; sourceTree = "<group>"; };
 		63B63C601F4CAD8700EC1446 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		63B63C621F4F559F00EC1446 /* AskHNTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskHNTableViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			children = (
 				63B63C621F4F559F00EC1446 /* AskHNTableViewController.swift */,
 				63B63C641F4F565D00EC1446 /* AskHNTableViewCell.swift */,
+				63A621E41F7051EC00867B1D /* AskHNCommentsTableViewController.swift */,
 			);
 			path = AskHN;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				632997F71F27C876008BA3BD /* Data.swift in Sources */,
 				63B63C5D1F4C731500EC1446 /* ShowHNTableViewCell.swift in Sources */,
 				632997F01F27A4F4008BA3BD /* Item.swift in Sources */,
+				63A621E51F7051EC00867B1D /* AskHNCommentsTableViewController.swift in Sources */,
 				63B63C691F5F090400EC1446 /* JobsTableViewController.swift in Sources */,
 				63B63C6D1F605CE500EC1446 /* StoriesTableViewController.swift in Sources */,
 				632997A91F26B8B3008BA3BD /* AppDelegate.swift in Sources */,

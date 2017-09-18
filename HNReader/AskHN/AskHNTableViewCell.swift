@@ -19,6 +19,7 @@ class AskHNTableViewCell: UITableViewCell {
     @IBOutlet weak var sourceLabel: UILabel!
     @IBOutlet weak var upvoteButton: UIButton!
     @IBOutlet weak var commentButton: UIButton!
+    @IBOutlet weak var textView: UITextView!
     weak var delegate: AskHNTableViewCellDelegate?
     
     @IBAction func commentButtonTouched(sender: AnyObject) {
@@ -32,12 +33,17 @@ class AskHNTableViewCell: UITableViewCell {
         let timeSince = timeAgoSinceDate(date: Date(timeIntervalSince1970: TimeInterval(time!)), numericDates: true)
         let score = story["score"] as? Int
         let comments = story["descendants"] as? Int
+        let text = story["text"] as? String
         
         titleLabel.text = title
         timeLabel.text = timeSince
         sourceLabel.text = source
         upvoteButton.setTitle(String(describing: score!), for: .normal)
         commentButton.setTitle(String(describing: comments!), for: .normal)
+        
+        if let textView = textView {
+            textView.text = text
+        }
     }
 
 }
